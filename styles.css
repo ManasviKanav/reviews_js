@@ -1,0 +1,97 @@
+:root{
+    --primary-color: #f2f5d9;
+    --primary-color2: #e5d5f6;
+    /* --primary-color3: #efefb2; */
+    --clr-btn: #4b32ee;
+    --shadow:  12px 12px rgba(31, 40, 206, 0.6); 
+    --dark-shadow:  3px -4px rgba(3, 15, 250, 0.8);
+    --border: #989191;
+    --dark: #474847;
+    --spacing: 0.1rem;
+    --font: 'Poppins', sans-serif;
+    --transition: all 0.3s linear;
+
+}
+
+body{
+    background-color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    letter-spacing: var(--spacing);
+    font-family: var(--font);
+    font-size: 1.6rem;
+    font-weight: 1000;
+    padding: 0.7rem;
+    border: 2px solid var(--border);
+    border-radius: 1.8rem;
+    box-shadow: 5px 5px var(--border);
+    background-color: var(--primary-color);
+}
+
+p{
+    letter-spacing: var(--spacing);
+    font-family: var(--font);
+    text-transform: capitalize;
+    margin: 0.4rem;
+    font-size: 0.90rem;
+
+}
+
+h4{
+    font-family: var(--font);
+    letter-spacing: var(--spacing);
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 0.3rem;
+    font-size: 1rem;
+
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    /* margin: 2rem; */
+}
+
+
+.review{
+    display: grid;
+    place-items: center;
+    max-width: 90vh;
+    border: 2px solid var(--primary-color);
+    box-shadow: var(--shadow);
+    padding: 1rem;
+    background-color: var(--primary-color2);
+}
+
+/* .review:hover{
+    background-color: var(--primary-color3);
+} */
+img{
+    height: 105px;
+    width: 105px;
+    box-shadow: var(--dark-shadow);
+    border: 1.5px solid var(--dark);
+    border-radius: 50%;    
+}
+
+button{
+    color: var(--clr-btn);
+    font-size: 1.5rem;
+    background: transparent;
+    border-color: transparent;
+    margin: 0.25rem 1rem;
+    transition: var(--transition);
+    cursor: pointer;
+}
+.random-btn{
+    font-size: 0.75rem;
+    font-family: var(--font);
+    border: 1px solid var(--dark);
+    border-radius: 0.75rem;
+    padding: 0.25rem;
+
+}
